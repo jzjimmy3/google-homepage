@@ -1,0 +1,1 @@
+This project is dedicated to further improve my skill in using HTML, CSS, and Dev Tools.
