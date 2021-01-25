@@ -1,0 +1,37 @@
+body{
+    background: white;
+}
+ul{
+    list-style: none;  
+} 
+
+header a{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+header div{
+    display: inline-block;
+}
+header li {
+    display: inline-block;
+}
+
+
+
+
+
+footer a{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+footer div {
+    display: inline-block;
+}
+footer li {
+    display: inline-block;
+}
+
