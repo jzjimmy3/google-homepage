@@ -5,6 +5,12 @@ ul{
     list-style: none;  
 } 
 
+.header1{
+    display: flex; 
+    justify-content: space-between;
+    height: 30px;
+    align-content: start;
+}
 header a{
     font-size: 11px;
     color: #000;
@@ -27,13 +33,13 @@ header a:hover{
     width: 20px;
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-position: -135px -42px;
-    margin-top: 15px;
+    margin-top: 1px;
     opacity: .55;
+    position: relative;
 }
 
 header div{
     display: inline-block;
-    padding-top: 13px;
 }
 header li {
     display: inline-block;
@@ -41,6 +47,19 @@ header li {
 
 .nav-1{
     display: inline-block; 
+
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 .about{
     padding-right: 5px;
@@ -51,10 +70,8 @@ header li {
 .images{
     padding-right: 5px;
 }
-
-.nav-2{
-    float: right; 
-    padding-right: 100px;
+.apps{
+    padding-right: 35px;
 }
 
 .logo{
