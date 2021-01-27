@@ -6,13 +6,34 @@ ul{
 } 
 
 header a{
-    font-size: 13px;
+    font-size: 11px;
     color: #000;
     text-decoration: none;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    line-height: 24px;
+    align-items: center;
+}
+
+header a:hover{
+    color: #000;
+    opacity: 0.75;
+    text-decoration: underline;
+}
+.apps{
+    display: inline-block;
+    padding: 0px 10px 0px 0px; 
+    height: 20px;
+    width: 20px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -42px;
+    margin-top: 15px;
+    opacity: .55;
 }
 
 header div{
     display: inline-block;
+    padding-top: 13px;
 }
 header li {
     display: inline-block;
@@ -21,9 +42,19 @@ header li {
 .nav-1{
     display: inline-block; 
 }
+.about{
+    padding-right: 5px;
+}
+.gmail{
+    padding-right: 5px;
+}
+.images{
+    padding-right: 5px;
+}
 
 .nav-2{
     float: right; 
+    padding-right: 100px;
 }
 
 .logo{
@@ -33,8 +64,8 @@ header li {
     padding-top: 141px;
 }
 img{
-    width: 272px;
-    height: 92px;
+    width: 271.76px;
+    height: 91.99px;
 }
 
 .search {
