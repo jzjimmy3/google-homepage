@@ -134,6 +134,18 @@ form i{
     justify-content: center;
     padding-top: 15px;
 }
+.content{
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    background-color: rgb(248, 249, 250);
+    border-style: solid;
+    border-color: rgb(248, 249, 250);
+}
+
+.padding{
+    margin-right: 15px;
+    margin-top: 10px;
+}
 
 
 
