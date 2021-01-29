@@ -1,15 +1,18 @@
 body{
     background: white;
 }
-ul{
-    list-style: none;  
+ 
+li {
+    display: inline-block;
 } 
 
-.header1{
+/* Header */
+.header{
     display: flex; 
     justify-content: space-between;
     height: 30px;
     margin-top: 10px;
+    
 }
 header a{
     font-size: 11px;
@@ -26,6 +29,7 @@ header a:hover{
     opacity: 0.75;
     text-decoration: underline;
 }
+
 .apps{
     display: inline-block;
     padding: 0px 10px 0px 0px; 
@@ -38,19 +42,7 @@ header a:hover{
     position: relative;
 }
 
-header div{
-    display: inline-block;
-}
-header li {
-    display: inline-block;
-}
-
-.nav-1{
-    display: inline-block; 
-
-}
-
-.nav-2{
+.nav-right{
     display: flex;
     align-items: center;
     padding-right: 30px;
@@ -61,30 +53,26 @@ header img{
     height: 25px;
     border-radius: 50%;
 }
-.about{
-    padding-right: 5px;
-}
-.gmail{
-    padding-right: 5px;
-}
-.images{
-    padding-right: 5px;
+.nav-spacing{
+    padding-right: 10px;
 }
 .apps{
     padding-right: 35px;
 }
 
+/* Google Logo */
 .logo{
     display:flex;
     text-align: center;
     justify-content: center;
     padding-top: 141px;
 }
-img{
+#logo{
     width: 271.76px;
     height: 91.99px;
 }
 
+/* Search Bar */
 .search-bar{
     width: 50%;
     
@@ -128,6 +116,7 @@ form i{
     padding-right: 500px;
 }
 
+/* Buttons */
 .buttons{
     display: flex;
     justify-content: center;
@@ -146,14 +135,9 @@ form i{
     margin-top: 10px;
 }
 
-.footer1{
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-    text-align: center;
-}
+/* Footer */
 
-.footer{
+footer{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -162,6 +146,13 @@ form i{
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color:#f2f2f2;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    text-align: center;
 }
 
 footer a{
@@ -176,21 +167,8 @@ footer a:hover{
     text-decoration: underline;
 }
 
-footer li {
-    display: inline-block;
-}
-
 footer ul{
     line-height: 40px;
-}
-
-.footer-1{
-    display:flex;
-    
-}
-
-.footer-2{
-    float:right;
 }
 
 .foot-padding{
